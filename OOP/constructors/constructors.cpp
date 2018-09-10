@@ -84,6 +84,8 @@ void Employee::display() const {
 
 int main() {
 
+    initSeed();
+
     Employee rakesh("rakesh", 30, 1500);
     Employee vibhor("vibhor", 50, 1700);
 
